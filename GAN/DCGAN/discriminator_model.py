@@ -13,3 +13,9 @@ def make_discriminator_model():
     model.add(layers.Dense(1))
 
     return model
+
+# Use the (as yet untrained) discriminator to classify the generated images as real or fake. 
+# The model will be trained to output positive values for real images, and negative values for fake images.
+discriminator = make_discriminator_model()
+decision = discriminator(generated_image)
+print (decision)
