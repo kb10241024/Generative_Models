@@ -21,3 +21,11 @@ def make_generator_model():
     assert model.output_shape == (None, 28, 28, 1)
 
     return model
+
+generator = make_generator_model()
+
+# Use the generator to create an image.
+noise = tf.random.normal([1, 100])
+generated_image = generator(noise, training=False)
+
+plt.imshow(generated_image[0, :, :, 0], cmap='gray')
