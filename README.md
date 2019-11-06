@@ -1,5 +1,5 @@
 # Generative_Models
-This repository is aimed with to build different types of Generative Models.
+This repository is aimed with to build different types of Generative Models.<br /> 
 Till now, I've made **DC-GAN**(Deep Convolution Generative Adverserial Networks)
 
 ## GANs
@@ -31,6 +31,8 @@ This method quantifies how well the discriminator is able to distinguish real im
 The generator's loss quantifies how well it was able to trick the discriminator. Intuitively, if the generator is performing well, the discriminator will classify the fake images as real (or 1). Here, we will compare the discriminators decisions on the generated images to an array of 1s.
 
 ## References
+[NIPS 2016 Tutorial: Generative Adversarial Networks](https://arxiv.org/abs/1701.00160)<br /> 
+[GAN — DCGAN (Deep convolutional generative adversarial networks)](https://medium.com/@jonathan_hui/gan-dcgan-deep-convolutional-generative-adversarial-networks-df855c438f)<br /> 
 MIT's [Intro to Deep Learning](http://introtodeeplearning.com/) course.
 
 ## Contributing
