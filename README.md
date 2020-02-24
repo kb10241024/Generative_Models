@@ -1,6 +1,6 @@
 # Generative_Models
 This repository is aimed with to build different types of Generative Models.<br /> 
-Till now, I've made **DC-GAN**(Deep Convolution Generative Adverserial Networks)
+Till now, I've implemented **DC-GAN**(Deep Convolution Generative Adverserial Networks) only!
 
 ## GANs
 [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661) (GANs) are one of the most interesting ideas in computer science today. Two models are trained simultaneously by an adversarial process. A *generator* ("the artist") learns to create images that look real, while a *discriminator* ("the art critic") learns to tell real images apart from fakes.
